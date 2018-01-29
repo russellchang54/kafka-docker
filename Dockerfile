@@ -3,7 +3,7 @@ FROM anapsix/alpine-java
 ARG kafka_version=1.0.0
 ARG scala_version=2.12
 
-MAINTAINER wurstmeister
+MAINTAINER russellchang
 
 ENV KAFKA_VERSION=$kafka_version \
     SCALA_VERSION=$scala_version \
